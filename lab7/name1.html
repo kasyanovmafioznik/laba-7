@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="simple-adaptive-slider.css">
+  <script defer src="simple-adaptive-slider.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/add6a67953.js" crossorigin="anonymous"></script>
+ 
+
+  <title>Overwatch</title>
+
+ 
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+      background: no-repeat url("Site-background-light.png");
+      background-size: cover;
+    }
+
+    .slider {
+      max-width: 700px;
+      margin-bottom: 2px;
+    }
+
+    .slider__items {
+      counter-reset: slide;
+    }
+
+    .slider__item {
+      position: relative;
+      counter-increment: slide;
+    }
+
+    .slider__item::after {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .img-fluid {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <nav class="container">
+        <img class="logo_2"src="logo_1.png" alt="" width="150px">
+        <div class="d2">
+          <form class="searchform " action="" method="get">
+            <input type="text" placeholder="Искать здесь...">
+            <button type="submit"></button>
+          </form>
+        </div>
+        <div class="burger-menu">
+          <a href="" class="burger-menu_button">
+            <span class="burger-menu_lines"></span>
+          </a>
+          <nav class="burger-menu_nav menu">
+            <a class="burger-menu_link">Герои</a>
+            <a class="burger-menu_link">Магазин</a>
+            <a class="burger-menu_link">Карты</a>
+          </nav>
+          <div class="burger-menu_overlay"></div>
+        </div>
+      </nav>
+    </header>
+    <div class="bord">
+      <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+              <img class="img-fluid" src="overwatch-2-sigma.jpg" alt="..." width="800" height="400" loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="overwatch-2-sombra-face.jpg" alt="..." width="800" height="400"
+                loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="ow2-moira_KcB85Zo.jpg" alt="..." width="800" height="400" loading="lazy">
+            </div>
+            <div class="slider__item">
+              <img class="img-fluid" src="986c94292445c153_1920xH.jpg" alt="..." width="800" height="400"
+                loading="lazy">
+            </div>
+          </div>
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+      </div>
+    </div>
+    <br>
+    <section class="sec_1">
+      <img class="img_1" src="3F3F3F.png" width="400px" height="380px">
+      <p class="text">Киборг Гэндзи Шимада смирился со своим механическим телом, которое раньше вызывало у него лишь
+        отвращение, тем самым открыв новую лучшую сторону своего характера.
+
+        Как младший сын главы клана ниндзя Шимада, Гэндзи жил в роскоши и привык к привилегированному положению. Он не
+        проявлял интереса к криминальным аспектам деятельности клана. Хотя ему нравилось обучаться мастерству ниндзя — в
+        чем он весьма преуспел, Гэндзи предпочитал прожигать жизнь, строя из себя молодого плейбоя. Многие члены клана
+        считали, что его беззаботный образ жизни не сулит ничего хорошего и может обернуться бедой, и потому их
+        возмущало чрезмерное внимание и опека, которые отец Гэндзи проявлял по отношению к сыну. После внезапной гибели
+        главы клана старший брат Гэндзи, Хандзо, потребовал, чтобы тот принял большее участие в судьбе криминальной
+        империи их отца. Гэндзи отказался, чем навлек на себя гнев Хандзо. Страсти достигли такого накала, что братья
+        бросились друг на друга с оружием. Этот поединок чуть не стоил жизни Гэндзи.
+
+        Хандзо думал, что убил своего брата, но благодаря действиям Overwatch и вмешательству доктора Ангелы Циглер
+        Гэндзи удалось спасти. Всемирная служба безопасности увидела в Гэндзи потенциального союзника в борьбе с кланом
+        Шимада. Он умирал от полученных ран, но организация Overwatch предложила ему спасение в обмен на службу. Многие
+        органы Гэндзи пришлось заменить на кибернетические импланты. Это сделало Гэндзи еще быстрее и улучшило его
+        навыки ниндзя. Превращенный в живое оружие, Гэндзи бросил все свои силы на уничтожение криминальной империи,
+        которая принадлежала его семье.</p>
+    </section>
+
+    <section class="sec_2">
+      <p class="text_1">Роковая вдова — идеальная убийца: терпеливая, безжалостная и эффективная, она не выказывает ни
+        эмоций, ни сожалений.
+
+        Считается, что в прошлой жизни Роковая вдова была супругой Жерара Лакруа, агента организации Overwatch,
+        планировавшего операции, направленные на подавление деятельности террористической организации «Коготь». После
+        нескольких неудавшихся попыток убрать Жерара «Коготь» решил сменить тактику и сосредоточился на его жене, Амели.
+        Агенты «Когтя» похитили ее и подвергли интенсивному курсу нейронной модификации. Процедуры сломили ее волю и
+        подавили личность; женщина превратилась в «спящего» агента. Спустя некоторое время сотрудники Overwatch
+        вызволили Амели, казалось бы, в целости и сохранности, и она вернулась к нормальной жизни.
+
+        Через две недели она убила Жерара, пока он спал.
+
+        Поскольку миссия Амели была выполнена, она вернулась в «Коготь», где завершился процесс ее превращения в живое
+        оружие. Она получила всестороннюю подготовку в искусстве маскировки, а ее физиология была изменена. Сердечный
+        ритм замедлился настолько, что кожа бывшей мадам Лакруа стала холодной и бледной, а способность испытывать
+        эмоции практически пропала. Амели, которую все помнили, умерла.
+
+        На данный момент Роковая вдова является самой эффективной убийцей «Когтя», и лишь успешно выполненная работа
+        приносит ей удовлетворение.</p>
+      <img class="img_2" src="Widowmaker_portrait.png">
+    </section>
+
+    <section class="sec_3">
+      <img class="t1" src="9b41333704a7f2b99c7dcb18f0dc2c06.png" width="400px" height="400px">
+      <img class="t2" src="1632267145_9-kartinkin-net-p-overvotch-art-krasivo-9.jpg" width="400px" height="400px">
+    </section>
+
+    <footer class="foo">
+      <p class="rec">Мы в социальных сетях</p>
+      <div class="socseti">
+        <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="50px" height="50px"></a>
+        <a href="https://vk.com/feed" target="_blank"><img src="мл_5.png" width="50px" height="50px"></a>
+        <a target="_blank"
+          href="https://www.facebook.com/campaign/landing.php?campaign_id=17872459592&extra_1=s%7Cc%7C613001315951%7Cb%7Cfacebook%20%27%7C&placement=&creative=613001315951&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D17872459592%26adgroupid%3D145027591648%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D1001492%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA9qKbBhAzEiwAS4yeDcNGgeZj0raScH_B7qJKZiifyU-2dvJAU9x25WytZdRm66w1Q65XFhoCk90QAvD_BwE"><img
+            src="facebook.png" width="50px" height="50px"></a>
+        <a href="https://www.tiktok.com/" target="_blank"><img src="tiktok-128x128.png" width="50px" height="50px"></a>
+      </div>
+    </footer>
+  </main>
+
+  <script>  function burgerMenu(selector) {
+      let menu = $(selector);
+      let button = menu.find('.burger-menu_button', '.burger-menu_lines');
+      let links = menu.find('.burger-menu_link');
+      let overlay = menu.find('.burger-menu_overlay');
+
+      button.on('click', (e) => {
+        e.preventDefault();
+        toggleMenu();
+      });
+
+      links.on('click', () => toggleMenu());
+      overlay.on('click', () => toggleMenu());
+
+      function toggleMenu() {
+        menu.toggleClass('burger-menu_active');
+
+        if (menu.hasClass('burger-menu_active')) {
+          $('body').css('overlow', 'hidden');
+        } else {
+          $('body').css('overlow', 'visible');
+        }
+      }
+    }
+
+    burgerMenu('.burger-menu');
+
+   
+    document.addEventListener('DOMContentLoaded', function () {
+      let slider = new SimpleAdaptiveSlider('.slider', {
+        autoplay: true,
+        interval: 10000,
+      });
+    });
+
+
+  </script>
+</body>
+
+
+</html>
